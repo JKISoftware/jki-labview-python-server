@@ -12,10 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="JKI_Python_Server Example.vi" Type="VI" URL="../JKI_Python_Server Example.vi"/>
+		<Item Name="JKI_Python_Server Example 2 Nodes.vi" Type="VI" URL="../JKI_Python_Server Example 2 Nodes.vi"/>
 		<Item Name="JKI_Python_Bridge_for_LV.lvlib" Type="Library" URL="../JKI_Python_Bridge_for_LV.lvlib"/>
 		<Item Name="LabVIEW.py" Type="Document" URL="../LabVIEW.py"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
-		<Item Name="JKI_Python_Server Example 2 Nodes.vi" Type="VI" URL="../JKI_Python_Server Example 2 Nodes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -274,6 +274,8 @@
 				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
 				<Item Name="Valid Path - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Array__ogtk.vi"/>
 				<Item Name="Valid Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -426,6 +428,47 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="Variant to Header Info__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Variant to Header Info__Py2LV__jki_lib_python_data_tools.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Python_CMD Object RefNum - Enum__jki_lib_tcp_python_server.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Object RefNum - Enum__jki_lib_tcp_python_server.ctl"/>
+				<Item Name="Python_CMD Object RefNum__jki_lib_tcp_python_server.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Object RefNum__jki_lib_tcp_python_server.ctl"/>
+				<Item Name="Python_CMD Object Ref Type__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Object Ref Type__jki_lib_tcp_python_server.vi"/>
+				<Item Name="TSPCH Response Type Enum__jki_lib_tcp_python_server.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/TSPCH Response Type Enum__jki_lib_tcp_python_server.ctl"/>
+				<Item Name="Python_CMD Response Notifier Data__jki_lib_tcp_python_server.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Response Notifier Data__jki_lib_tcp_python_server.ctl"/>
+				<Item Name="Python_CMD Data__jki_lib_tcp_python_server.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Data__jki_lib_tcp_python_server.ctl"/>
+				<Item Name="Python_CMD Default Data__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Default Data__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Object Data Store__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Object Data Store__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Object Data Core Task Enum__jki_lib_tcp_python_server.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Object Data Core Task Enum__jki_lib_tcp_python_server.ctl"/>
+				<Item Name="Python_CMD Data Core__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Data Core__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Get Instance Semaphore RefNum__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Get Instance Semaphore RefNum__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python Debug Message Type Enum__jki_lib_tcp_python_server.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python Debug Message Type Enum__jki_lib_tcp_python_server.ctl"/>
+				<Item Name="Python Client Queue__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python Client Queue__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Send Response (low-level)__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Send Response (low-level)__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python String to LabVIEW Data (DBL)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (DBL)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (U64)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (U64)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (I64)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (I64)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (String)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (String)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (Path)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (Path)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (CSG)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (CSG)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (CDB)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (CDB)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (CXT)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (CXT)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (U8)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (U8)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (U16)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (U16)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (U32)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (U32)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (I8)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (I8)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (I16)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (I16)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (I32)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (I32)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (SGL)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (SGL)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (EXT)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (EXT)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (Boolean)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (Boolean)__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python_CMD Get Data__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Get Data__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Send Response to Client__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Send Response to Client__jki_lib_tcp_python_server.vi"/>
+				<Item Name="TSPCH Expand Commands to Uppercase__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/TSPCH Expand Commands to Uppercase__jki_lib_tcp_python_server.vi"/>
+				<Item Name="TSPCH Convert Python Command to Enum__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/TSPCH Convert Python Command to Enum__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Close Object Reference__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Close Object Reference__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Delete__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Delete__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Destroy__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Destroy__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python_CMD Get Command Info__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python_CMD Get Command Info__jki_lib_tcp_python_server.vi"/>
+				<Item Name="Python Command Handler Example__jki_lib_tcp_python_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_python_server.llb/Python Command Handler Example__jki_lib_tcp_python_server.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

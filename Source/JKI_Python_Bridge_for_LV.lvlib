@@ -7,4 +7,5 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Server.lvclass" Type="LVClass" URL="../Server/Server.lvclass"/>
 	<Item Name="Call.lvclass" Type="LVClass" URL="../Call/Call.lvclass"/>
+	<Item Name="Node.lvclass" Type="LVClass" URL="../Node/Node.lvclass"/>
 </Library>
