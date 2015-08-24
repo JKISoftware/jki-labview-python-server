@@ -16,6 +16,7 @@
 		<Item Name="JKI_Python_Bridge_for_LV.lvlib" Type="Library" URL="../JKI_Python_Bridge_for_LV.lvlib"/>
 		<Item Name="LabVIEW.py" Type="Document" URL="../LabVIEW.py"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
+		<Item Name="JKI_Python_Server - VI Tree.vi" Type="VI" URL="../JKI_Python_Server - VI Tree.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
