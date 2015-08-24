@@ -7,5 +7,5 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Server.lvclass" Type="LVClass" URL="../Server/Server.lvclass"/>
 	<Item Name="Call.lvclass" Type="LVClass" URL="../Call/Call.lvclass"/>
-	<Item Name="CallHandler.lvclass" Type="LVClass" URL="../CallHandler/CallHandler.lvclass"/>
+	<Item Name="PyObject.lvclass" Type="LVClass" URL="../CallHandler/PyObject.lvclass"/>
 </Library>
