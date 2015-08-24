@@ -27,7 +27,7 @@
 </Property>
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="JKI_Python_Bridge_for_LV.lvlib:Server.lvclass" Type="Friended Library" URL="../../Server/Server.lvclass"/>
-		<Item Name="JKI_Python_Bridge_for_LV.lvlib:PyObject.lvclass" Type="Friended Library" URL="../../CallHandler/PyObject.lvclass"/>
+		<Item Name="JKI_Python_Bridge_for_LV.lvlib:PyObject.lvclass" Type="Friended Library" URL="../../PyObject/PyObject.lvclass"/>
 	</Item>
 	<Item Name="Call.ctl" Type="Class Private Data" URL="Call.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
