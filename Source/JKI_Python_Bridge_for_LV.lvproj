@@ -18,6 +18,7 @@
 		<Item Name="JKI_Python_Bridge_for_LV.lvlib" Type="Library" URL="../JKI_Python_Bridge_for_LV.lvlib"/>
 		<Item Name="LabVIEW.py" Type="Document" URL="../LabVIEW.py"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
+		<Item Name=".vipb" Type="Document" URL="../.vipb"/>
 		<Item Name="Python Object and Method Names - Cluster.ctl" Type="VI" URL="../Server/Type Definitions/Python Object and Method Names - Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
