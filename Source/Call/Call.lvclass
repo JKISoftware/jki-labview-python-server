@@ -44,17 +44,6 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 	</Item>
-	<Item Name="Utilitites" Type="Folder">
-		<Item Name="Enum to List.vi" Type="VI" URL="../Enum to List.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$R!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'=X2S;7ZH!!!;1%!!!@````]!"1R&amp;&lt;H6N)&amp;.U=GFO:X-!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#E"4"%6O&gt;7U!!&amp;1!]!!-!!-!"!!'!!1!"!!%!!1!"!!(!!1!#!!%!Q!!?!!!$1A!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!I!!!!!!!!!!!%!#1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
-		</Item>
-	</Item>
 	<Item Name="Get Arguments as LabVIEW Data.vi" Type="VI" URL="../Get Arguments as LabVIEW Data.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!5QR-97*73568)%2B&gt;'%!!%"!=!!?!!!N(EJ,36^1?82I&lt;WZ@1H*J:'&gt;F8W:P=F^-6CZM&gt;GRJ9AR$97RM,GRW9WRB=X-!#%.B&lt;'QA&lt;X6U!!!+1&amp;-%&gt;(FQ:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!_1(!!(A!!,2Z+3UF@5(FU;'^O8U*S;72H:6^G&lt;X*@4&amp;9O&lt;(:M;7)-1W&amp;M&lt;#ZM&gt;G.M98.T!!&gt;$97RM)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"Q!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!")!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

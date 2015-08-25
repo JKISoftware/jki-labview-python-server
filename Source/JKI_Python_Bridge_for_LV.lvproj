@@ -11,12 +11,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="JKI_Python_Server - VI Tree.vi" Type="VI" URL="../JKI_Python_Server - VI Tree.vi"/>
 		<Item Name="JKI_Python_Server Example.vi" Type="VI" URL="../JKI_Python_Server Example.vi"/>
 		<Item Name="JKI_Python_Server Example 2 Nodes.vi" Type="VI" URL="../JKI_Python_Server Example 2 Nodes.vi"/>
 		<Item Name="JKI_Python_Bridge_for_LV.lvlib" Type="Library" URL="../JKI_Python_Bridge_for_LV.lvlib"/>
 		<Item Name="LabVIEW.py" Type="Document" URL="../LabVIEW.py"/>
 		<Item Name=".vipc" Type="Document" URL="../.vipc"/>
-		<Item Name="JKI_Python_Server - VI Tree.vi" Type="VI" URL="../JKI_Python_Server - VI Tree.vi"/>
+		<Item Name="Python Object and Method Names - Cluster.ctl" Type="VI" URL="../Server/Type Definitions/Python Object and Method Names - Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
