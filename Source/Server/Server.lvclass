@@ -46,22 +46,20 @@
 		<Item Name="Python Response - Cluster.ctl" Type="VI" URL="../Type Definitions/Python Response - Cluster.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#X!!!!"A!51&amp;-05(FU;'^O)&amp;*F=X"P&lt;H.F!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!%!!A!$#76S=G^S)'^V&gt;!"?!0(&amp;]#=U!!!!!BF+3UF@5(FU;'^O8V.F=H:F=CZM&gt;G.M98.T(6"Z&gt;'BP&lt;C"3:8.Q&lt;WZT:3!N)%.M&gt;8.U:8)O9X2M!"Z!5!!#!!!!"!^1?82I&lt;WYA5G6T='^O=W5!!1!&amp;!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">3145736</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074266624</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 		<Item Name="Python Message - Cluster.ctl" Type="VI" URL="../Type Definitions/Python Message - Cluster.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!51&amp;-05(FU;'^O)&amp;*F=X"P&lt;H.F!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!%!!A!$#76S=G^S)'^V&gt;!"?!0(&amp;]#=U!!!!!BF+3UF@5(FU;'^O8V.F=H:F=CZM&gt;G.M98.T(6"Z&gt;'BP&lt;C"3:8.Q&lt;WZT:3!N)%.M&gt;8.U:8)O9X2M!"Z!5!!#!!!!"!^1?82I&lt;WYA5G6T='^O=W5!(%"Q!"%!!1!&amp;%6*F=X"P&lt;H.F)%ZP&gt;'FG;76S!""!-0````]'476U;'^E!!!31$$`````#5&amp;S:X6N:7ZU=Q"@!0(/M$:L!!!!!BF+3UF@5(FU;'^O8V.F=H:F=CZM&gt;G.M98.T(&amp;"Z&gt;'BP&lt;C".:8.T97&gt;F)#UA1WRV=X2F=CZD&gt;'Q!)%"1!!-!"A!(!!A/5(FU;'^O)%VF=X.B:W5!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		</Item>
 		<Item Name="Class Private Data - Cluster.ctl" Type="VI" URL="../Type Definitions/Class Private Data - Cluster.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
