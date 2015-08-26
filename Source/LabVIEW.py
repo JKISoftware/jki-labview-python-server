@@ -1,16 +1,11 @@
 #########################################################################
 #
-# Custom LabVIEW TCP Server Client Script for Python 2.x and 3.x
+# JKI Python Bridge for LabVIEW
+# Client Script for Python 2.x and 3.x
 #
-# Copyright (c) 2003-2010 JKI. All rights reserved.
+# Copyright (c) 2003-2015 JKI. All rights reserved.
 #
-# Author: Jim Kring [jim.kring@jameskring.com]
-# Author: Philippe Guerit [philippe.guerit@jameskring.com]
-#
-# This library is provided "AS IS" ,WITHOUT WARRANTIES OR
-# CONDITIONS OF ANY KIND, either express or implied.
-#
-# James Kring, Inc. -- http://www.jameskring.com
+# Visit http://jki.net/python-bridge-for-labview for updates
 #
 #########################################################################
 
@@ -34,7 +29,7 @@ def getAppVersion():
     if isConnected:
         return _passCommand("System.GetAppVersion")
     else:
-        print "not connected. Run connect method first"            
+        print "not connected. Run connect method first"
 
 def connect():
     'opens a connection to LabVIEW Server'
@@ -57,14 +52,12 @@ def connect():
 
     isConnected = 1
 
-
 def disconnect():
     'closes the connection to LabVIEW Server'
     global isConnected
     _sockobj.close()                             # close socket
     isConnected = 0
 
-# Add a recv_all function PJM 3-26-2010 (not tested on python 3.0, but on python 2.6.4)
 def recv_all(my_socket, pack_size=8):
     'this routine is supposed to receive all data in the socket buffer in chunks using a prefixed size (of pack_size which default to 8)'
     #data length is packed into pack_size bytes
@@ -98,7 +91,6 @@ def recv_all(my_socket, pack_size=8):
 def _passCommand(command):
     'passes a command to LabVIEW Server'
 
-##    global lvdata
 ## We prepend the command length (8 char long) to the message and send it to LV --PJM 6-16-06
     # Compute message length and pad with 0 on the left if required
     commandSize=str(len(command)).rjust(8,'0')
@@ -121,12 +113,6 @@ def _passCommand(command):
     else:
         error = False
     #convert data from string to python data
-##    #test for performance improvement inconclusive
-##    if data == "None":
-##        lvdata = None
-##    else:
-##        execString = "lvdata = " + data
-##        exec(execString, globals())
     execString = "lvdata = " + data
     exec(execString, globals())
     #return lvdata or raise an error
