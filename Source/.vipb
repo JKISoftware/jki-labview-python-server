@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-08-27 13:43:58" Creator="Jim Kring" Comments="" ID="ae108cb8cd1f404f58f6cc6b4f62e46a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-09-02 17:46:02" Creator="Jim Kring" Comments="" ID="a56ea488573cd0cc7918f9d1391b451f">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
-    <Library_Version>1.0.0.23</Library_Version>
+    <Library_Version>1.0.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,6 +17,12 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>jki_lib_error_handling &gt;= 3.0.4</External_Dependencies>
+      <External_Dependencies>jki_lib_file &gt;= 3.0.12.1</External_Dependencies>
+      <External_Dependencies>jki_lib_product_release_nag &gt;= 0.8.6</External_Dependencies>
+      <External_Dependencies>jki_lib_python_data_tools &gt;= 3.0.6</External_Dependencies>
+      <External_Dependencies>jki_lib_string &gt;= 3.1.7</External_Dependencies>
+      <External_Dependencies>jki_lib_tcp_server &gt;= 3.1.1</External_Dependencies>
       <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
       <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
@@ -26,8 +32,8 @@
       <Additional_External_Dependencies>jki_rsc_toolkits_palette &gt;=1.1</Additional_External_Dependencies>
       <Direct_Dependencies>jki_lib_error_handling-3.0.4-1</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_file-3.0.12.1</Direct_Dependencies>
-      <Direct_Dependencies>jki_lib_product_release_nag-0.8.5-1</Direct_Dependencies>
-      <Direct_Dependencies>jki_lib_python_data_tools-3.0.5-1</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_product_release_nag-0.8.6-1</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_python_data_tools-3.0.6</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_string-3.1.7-1</Direct_Dependencies>
       <Direct_Dependencies>jki_lib_tcp_server-3.1.1-1</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
@@ -52,7 +58,7 @@
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>http://jki.net/products</URL>
-      <Release_Notes/>
+      <Release_Notes>Added a fix to the Python Data tools, so that a cluster containing arrays is parsed correctly.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -349,7 +355,7 @@
         <Path>Server\Register for Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8DF5CEE6A70E79EA55FB2CA510BE58E1</GUID>
+      <GUID>3C19322D5A7A467F4E4973D93D150CD5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
