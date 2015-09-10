@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-08-27 13:43:58" Creator="Jim Kring" Comments="" ID="ae108cb8cd1f404f58f6cc6b4f62e46a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-09-10 14:00:59" Creator="Jim Kring" Comments="" ID="d8c2219b50d432a2ea87226c000fcfc4">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
-    <Library_Version>1.0.0.23</Library_Version>
+    <Library_Version>1.0.0.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -38,8 +38,8 @@
       <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI/>
-      <Post-Build_VI/>
+      <Pre-Build_VI>C:\Program Files\National Instruments\LabVIEW 2013\vi.lib\addons\_JKI.lib\_jki_lib_internal_reuse_build_hooks.llb\Pre Build Hook__jki_lib_internal_reuse_build_hooks.vi</Pre-Build_VI>
+      <Post-Build_VI>C:\Program Files\National Instruments\LabVIEW 2013\vi.lib\addons\_JKI.lib\_jki_lib_internal_reuse_build_hooks.llb\Post Build Hook__jki_lib_internal_reuse_build_hooks.vi</Post-Build_VI>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -349,7 +349,7 @@
         <Path>Server\Register for Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8DF5CEE6A70E79EA55FB2CA510BE58E1</GUID>
+      <GUID>F98809D3B6B55CAEE4BFC6E2642064B6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
