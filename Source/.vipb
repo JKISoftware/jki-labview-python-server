@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-09-02 19:18:37" Creator="Jim Kring" Comments="" ID="da756ae063abd805df3b89171a92dc9b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-09-21 14:24:05" Creator="Jim Kring" Comments="" ID="b51aa414e74a5924b52ce948f983979d">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
-    <Library_Version>1.0.1.4</Library_Version>
+    <Library_Version>1.0.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -51,7 +51,7 @@
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>http://jki.net/products</URL>
-      <Release_Notes>Added a fix to the Python Data tools, so that a cluster containing arrays is parsed correctly.</Release_Notes>
+      <Release_Notes>Removed the trial-period dialog and lock to prevent running EXEs</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -348,7 +348,7 @@
         <Path>Server\Register for Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E418FAD9C6BCEA89E020634CE74CD5D6</GUID>
+      <GUID>982D8026469652879D0EE7508DDA6BB1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
