@@ -32,10 +32,11 @@ def getAppVersion():
     else:
         print "not connected. Run connect method first"
 
-def connect():
+def connect(serverHost = 'localhost', serverPort = 50007):
     'opens a connection to LabVIEW Server'
     global _sockobj, isConnected
-
+    _serverHost = serverHost
+    _serverPort = serverPort
     # if already connected, disconnect first and then reconnect.
     if isConnected:
         disconnect()
