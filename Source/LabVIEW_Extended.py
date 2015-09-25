@@ -24,7 +24,7 @@ _sockobj = None
 _error_string = "error:"
 
 def getAppVersion():
-    'get RAFL executable version as major.minor.bugfix.build# (returns "0.0.0.0" when calling RAFL IDE)'
+    'get executable version as major.minor.bugfix.build# (returns "0.0.0.0" when calling RAFL IDE)'
 
     # if already connected, disconnect first and then reconnect.
     if isConnected:
@@ -153,6 +153,7 @@ class LabVIEWError(Error):
 
 # function that allows to script a child of the _Function class with a specific name and set of parameters
 def _scriptFuncClass(functionName,_argumentsList, _documentation):
+    """returns a string that can be executed by python to create a child of _Function"""
     _argStr = ""
     _argSize = len(_argumentsList)
     #print _argSize
@@ -222,8 +223,5 @@ class _Function:
 
         else: print('Not Connected: Run "%s.connect()" method to connect.'% __name__)
 
-
-
-    
 
 
