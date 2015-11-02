@@ -23,7 +23,7 @@ _sockobj = None
 _error_string = "error:"
 
 def getAppVersion():
-    'get RAFL executable version as major.minor.bugfix.build# (returns "0.0.0.0" when calling RAFL IDE)'
+    'get executable version as major.minor.bugfix.build# (returns "0.0.0.0" when calling RAFL IDE)'
 
     # if already connected, disconnect first and then reconnect.
     if isConnected:
@@ -31,10 +31,11 @@ def getAppVersion():
     else:
         print "not connected. Run connect method first"
 
-def connect():
+def connect(serverHost = 'localhost', serverPort = 50007):
     'opens a connection to LabVIEW Server'
     global _sockobj, isConnected
-
+    _serverHost = serverHost
+    _serverPort = serverPort
     # if already connected, disconnect first and then reconnect.
     if isConnected:
         disconnect()
@@ -45,8 +46,11 @@ def connect():
     _instrumentList = _passCommand("System.GetInstruments()")
 
     for _instrument in _instrumentList:
+        #print _instrument
         _instrumentName = _instrument[0]
         _instrumentFunctionList = _instrument[1]
+        #_instrumentArgumentsList = _instrument[2]
+        #print _instrumentFunctionList
         _execString = _instrumentName + ' = _Instrument(' + repr(_instrumentName) + ", " + repr(_instrumentFunctionList) +')'
         exec _execString in globals() # execute in global (module's) scope, not function's scope
 
@@ -146,24 +150,53 @@ class LabVIEWError(Error):
         # Change to return more than just the message.
         return "Error code: %d.\nError source: %s.\nMessage: %s\n" % ( self.code, self.source, self.message )
 
+# function that allows to script a child of the _Function class with a specific name and set of parameters
+def _scriptFuncClass(functionName,_argumentsList, _documentation):
+    """returns a string that can be executed by python to create a child of _Function"""
+    _argStr = ""
+    _argSize = len(_argumentsList)
+    _argCount = 0
+    for _argument in _argumentsList:
+        _argStr = _argStr + _argument
+        _argCount = _argCount + 1
+        if _argCount<_argSize:
+            _argStr = _argStr + ","
+    if _argCount > 0:
+        _commaStr = ","
+    else:
+        _commaStr = ""
+            
+    _strStub = '''class _Function''' + functionName + '''(_Function):
+	def __call__(self''' + _commaStr + _argStr + ")"+''':
+                """''' + _documentation +''' """
+		return self._executeFunction(''' + _argStr + ''')'''
+    return _strStub
+
+
 
 class _Instrument:
 
-    def __init__(self, _instrumentName, _functionNames):
+    def __init__(self, _instrumentName, _functionClusters):
 
-        for _functionName in _functionNames:
-            _execString = "self." + _functionName + " =_Function('" + _instrumentName + "." + _functionName + "')"
-            exec(_execString)
+        for _functionCluster in _functionClusters:
+            _functionName = _functionCluster[0]
+            _functionArgList = _functionCluster[1]
+            _functionDoc = _functionCluster[2]
+            _funExecStr = _scriptFuncClass(_functionName,_functionArgList,_functionDoc)
+            exec(_funExecStr)
+            _execString = '''self.''' + _functionName + ''' =_Function''' + _functionName + "('" + _instrumentName + '''.''' + _functionName + '''' ,''' + repr(_functionArgList) + ''')'''
+	    exec(_execString)
 
 
 class _Function:
+    #myArgs = None
+    def __init__(self, name, *args):
+		self._name = name
+                self.argsNames = list(args)
+                
 
-    def __init__(self, name):
-
-        self._name = name
-
-    def __call__(self, a = None):
-
+    def _executeFunction(self, *args):
+        a = list(args)
         if isConnected:
 
             if (a == None):
@@ -175,4 +208,6 @@ class _Function:
                 return _passCommand(self._name + '(' + repr(a) + ')')
 
         else: print('Not Connected: Run "%s.connect()" method to connect.'% __name__)
+
+
 

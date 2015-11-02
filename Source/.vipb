@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-09-21 14:24:05" Creator="Jim Kring" Comments="" ID="b51aa414e74a5924b52ce948f983979d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-10-08 13:46:32" Creator="Jim Kring" Comments="" ID="f183c8d23dcc68c1e39cc3d6a679ebdf">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
-    <Library_Version>1.0.1.5</Library_Version>
+    <Library_Version>2.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -51,7 +51,11 @@
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>http://jki.net/products</URL>
-      <Release_Notes>Removed the trial-period dialog and lock to prevent running EXEs</Release_Notes>
+      <Release_Notes>THIS VERSION BREAKS COMPATIBILITY WITH OLDER VERSIONS.
+
+Built the first package that uses a new format for the Python Tools that allows LabVIEW to specify methods, arguments, and descriptions.
+
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -117,7 +121,7 @@
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
-        <Password>&lt;random:32&gt;</Password>
+        <Password>LabVIEW_Python_Tools2015</Password>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
       <Password_Overrides>
@@ -147,9 +151,6 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>JKI_Python_Bridge_for_LV.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>LabVIEW_OLD.py</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\Build Support\JKI Library Paid License.txt</License_Agreement_Filepath>
@@ -348,7 +349,7 @@
         <Path>Server\Register for Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>982D8026469652879D0EE7508DDA6BB1</GUID>
+      <GUID>FEF407CAC9EFD20DEC3DA10EF6A1A314</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
