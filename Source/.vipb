@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-10-08 13:46:32" Creator="Jim Kring" Comments="" ID="f183c8d23dcc68c1e39cc3d6a679ebdf">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2015-11-12 11:26:18" Creator="Jim Kring" Comments="" ID="69025e51da937d8ae5c591123023491c">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -51,9 +51,8 @@
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>http://jki.net/products</URL>
-      <Release_Notes>THIS VERSION BREAKS COMPATIBILITY WITH OLDER VERSIONS.
-
-Built the first package that uses a new format for the Python Tools that allows LabVIEW to specify methods, arguments, and descriptions.
+      <Release_Notes>Added argument string output to the Get PyObject and Method Names method.
+Removed password.
 
 </Release_Notes>
     </Description>
@@ -121,7 +120,7 @@ Built the first package that uses a new format for the Python Tools that allows 
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
-        <Password>LabVIEW_Python_Tools2015</Password>
+        <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
       <Password_Overrides>
@@ -349,7 +348,7 @@ Built the first package that uses a new format for the Python Tools that allows 
         <Path>Server\Register for Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEF407CAC9EFD20DEC3DA10EF6A1A314</GUID>
+      <GUID>313203F522299DCC56EFCEDEA3C0C8E8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
