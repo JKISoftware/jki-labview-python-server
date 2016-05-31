@@ -323,17 +323,17 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
-				<Item Name="Array of VData to VCluster__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Array of VData to VCluster__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Array Size(s)__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Array Size(s)__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Array to Array of VData__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Array to Array of VData__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="boolean to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/boolean to pystring__jki_lib_python_data_tools.vi"/>
-				<Item Name="Build Error Cluster__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Build Error Cluster__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="BuildComplexScanInputString__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/BuildComplexScanInputString__jki_lib_python_data_tools.vi"/>
+				<Item Name="Array of VData to VCluster__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Array of VData to VCluster__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Array Size(s)__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Array Size(s)__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Array to Array of VData__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Array to Array of VData__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="boolean to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/boolean to pystring__jki_lib_python_data_tools.vi"/>
+				<Item Name="Build Error Cluster__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Build Error Cluster__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="BuildComplexScanInputString__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/BuildComplexScanInputString__jki_lib_python_data_tools.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Cluster to Array of VData__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Cluster to Array of VData__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="complex to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/complex to pystring__jki_lib_python_data_tools.vi"/>
+				<Item Name="Cluster to Array of VData__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Cluster to Array of VData__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="complex to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/complex to pystring__jki_lib_python_data_tools.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
 				<Item Name="Destroy Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Destroy Semaphore.vi"/>
@@ -343,69 +343,69 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="Escape String for Python__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Escape String for Python__jki_lib_python_data_tools.vi"/>
+				<Item Name="Escape String for Python__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Escape String for Python__jki_lib_python_data_tools.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Extract First Quoted String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Extract First Quoted String__jki_lib_python_data_tools.vi"/>
+				<Item Name="Extract First Quoted String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Extract First Quoted String__jki_lib_python_data_tools.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="float to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/float to pystring__jki_lib_python_data_tools.vi"/>
+				<Item Name="float to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/float to pystring__jki_lib_python_data_tools.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get Array Element TDEnum__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get Array Element TDEnum__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Get Array Size from Python String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get Array Size from Python String__jki_lib_python_data_tools.vi"/>
-				<Item Name="Get Data Name from TD__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get Data Name from TD__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Get Data Name__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get Data Name__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Get Header from TD__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get Header from TD__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Get Last PString__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get Last PString__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Get PString__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get PString__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get Array Element TDEnum__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get Array Element TDEnum__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get Array Size from Python String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get Array Size from Python String__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get Data Name from TD__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get Data Name from TD__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get Data Name__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get Data Name__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get Header from TD__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get Header from TD__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get Last PString__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get Last PString__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get PString__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get PString__Py2LV__jki_lib_python_data_tools.vi"/>
 				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Strings from Enum__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get Strings from Enum__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Get TDEnum from Data__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Get TDEnum from Data__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="get text after first open bracket__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/get text after first open bracket__jki_lib_python_data_tools.vi"/>
-				<Item Name="get text before last open bracket__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/get text before last open bracket__jki_lib_python_data_tools.vi"/>
-				<Item Name="get text between brackets__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/get text between brackets__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get Strings from Enum__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get Strings from Enum__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get TDEnum from Data__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get TDEnum from Data__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="get text after first open bracket__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/get text after first open bracket__jki_lib_python_data_tools.vi"/>
+				<Item Name="get text before last open bracket__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/get text before last open bracket__jki_lib_python_data_tools.vi"/>
+				<Item Name="get text between brackets__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/get text between brackets__jki_lib_python_data_tools.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="integer to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/integer to pystring__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (Boolean)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (Boolean)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (CDB)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (CDB)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (CSG)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (CSG)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (CXT)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (CXT)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (DBL)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (DBL)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (EXT)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (EXT)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (I8)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (I8)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (I16)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (I16)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (I32)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (I32)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (I64)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (I64)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (Path)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (Path)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (SGL)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (SGL)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (String)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (String)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (U8)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (U8)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (U16)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (U16)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (U32)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (U32)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (U64)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (U64)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String (Variant)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String (Variant)__jki_lib_python_data_tools.vi"/>
-				<Item Name="LabVIEW Data to Python String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/LabVIEW Data to Python String__jki_lib_python_data_tools.vi"/>
+				<Item Name="integer to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/integer to pystring__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (Boolean)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (Boolean)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (CDB)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (CDB)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (CSG)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (CSG)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (CXT)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (CXT)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (DBL)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (DBL)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (EXT)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (EXT)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (I8)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (I8)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (I16)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (I16)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (I32)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (I32)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (I64)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (I64)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (Path)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (Path)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (SGL)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (SGL)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (String)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (String)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (U8)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (U8)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (U16)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (U16)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (U32)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (U32)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (U64)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (U64)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String (Variant)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String (Variant)__jki_lib_python_data_tools.vi"/>
+				<Item Name="LabVIEW Data to Python String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/LabVIEW Data to Python String__jki_lib_python_data_tools.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="lvdata to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/lvdata to pystring__jki_lib_python_data_tools.vi"/>
+				<Item Name="lvdata to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/lvdata to pystring__jki_lib_python_data_tools.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
-				<Item Name="OpenG 1D Array to String__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/OpenG 1D Array to String__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Parse String with TDs__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Parse String with TDs__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="path to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/path to pystring__jki_lib_python_data_tools.vi"/>
-				<Item Name="Python Escape Codes__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Python Escape Codes__jki_lib_python_data_tools.vi"/>
-				<Item Name="Python String to LabVIEW Data (Variant)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Python String to LabVIEW Data (Variant)__jki_lib_python_data_tools.vi"/>
+				<Item Name="OpenG 1D Array to String__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/OpenG 1D Array to String__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Parse String with TDs__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Parse String with TDs__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="path to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/path to pystring__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python Escape Codes__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python Escape Codes__jki_lib_python_data_tools.vi"/>
+				<Item Name="Python String to LabVIEW Data (Variant)__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Python String to LabVIEW Data (Variant)__jki_lib_python_data_tools.vi"/>
 				<Item Name="Release Semaphore (Even if Error)__jki_lib_tcp_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_server.llb/Release Semaphore (Even if Error)__jki_lib_tcp_server.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Release Semaphore_71.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore_71.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="Reshape Array to 1D VArray__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Reshape Array to 1D VArray__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Reshape Array to 1D VArray__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Reshape Array to 1D VArray__Py2LV__jki_lib_python_data_tools.vi"/>
 				<Item Name="Search 1D Array of VI References__jki_lib_tcp_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_server.llb/Search 1D Array of VI References__jki_lib_tcp_server.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Semaphore Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB Action.ctl"/>
@@ -413,14 +413,14 @@
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Data Name__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Set Data Name__Py2LV__jki_lib_python_data_tools.vi"/>
-				<Item Name="Set Enum String Value__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Set Enum String Value__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Set Data Name__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Set Data Name__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Set Enum String Value__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Set Enum String Value__Py2LV__jki_lib_python_data_tools.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Split cluster or array pyhton string__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Split cluster or array pyhton string__jki_lib_python_data_tools.vi"/>
-				<Item Name="Split Cluster TD__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Split Cluster TD__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Split cluster or array pyhton string__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Split cluster or array pyhton string__jki_lib_python_data_tools.vi"/>
+				<Item Name="Split Cluster TD__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Split Cluster TD__Py2LV__jki_lib_python_data_tools.vi"/>
 				<Item Name="Split String at Index__jki_lib_string.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_string.llb/Split String at Index__jki_lib_string.vi"/>
-				<Item Name="string to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/string to pystring__jki_lib_python_data_tools.vi"/>
+				<Item Name="string to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/string to pystring__jki_lib_python_data_tools.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TCP Server Close Object Reference__jki_lib_tcp_server.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_server.llb/TCP Server Close Object Reference__jki_lib_tcp_server.vi"/>
 				<Item Name="TCP Server Connection Info Cluster__jki_lib_tcp_server.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_tcp_server.llb/TCP Server Connection Info Cluster__jki_lib_tcp_server.ctl"/>
@@ -464,51 +464,15 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Type Descriptor Enumeration__Py2LV__jki_lib_python_data_tools.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Type Descriptor Enumeration__Py2LV__jki_lib_python_data_tools.ctl"/>
-				<Item Name="Type Descriptor Header__Py2LV__jki_lib_python_data_tools.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Type Descriptor Header__Py2LV__jki_lib_python_data_tools.ctl"/>
-				<Item Name="Unescape Python String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Unescape Python String__jki_lib_python_data_tools.vi"/>
-				<Item Name="unsigned integer to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/unsigned integer to pystring__jki_lib_python_data_tools.vi"/>
+				<Item Name="Type Descriptor Enumeration__Py2LV__jki_lib_python_data_tools.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Type Descriptor Enumeration__Py2LV__jki_lib_python_data_tools.ctl"/>
+				<Item Name="Type Descriptor Header__Py2LV__jki_lib_python_data_tools.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Type Descriptor Header__Py2LV__jki_lib_python_data_tools.ctl"/>
+				<Item Name="Unescape Python String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Unescape Python String__jki_lib_python_data_tools.vi"/>
+				<Item Name="unsigned integer to pystring__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/unsigned integer to pystring__jki_lib_python_data_tools.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="Variant to Header Info__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_JKI_lib_Python_Data_Tools.llb/Variant to Header Info__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Variant to Header Info__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Variant to Header Info__Py2LV__jki_lib_python_data_tools.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Show File in Explorer__jki_lib_file.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_file.llb/Show File in Explorer__jki_lib_file.vi"/>
-				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
-				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="JKI Prompt Web Browser Path__jki_lib_product_release_nag.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/Release Tools/Nag/_jki_lib_product_release_nag.llb/JKI Prompt Web Browser Path__jki_lib_product_release_nag.vi"/>
-				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
-				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
-				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
-				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
-				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
-				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
-				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
-				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
-				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
-				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
-				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
-				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
-				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
-				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
-				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
-				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
-				<Item Name="JKI Get System Web Browser__jki_lib_product_release_nag.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/Release Tools/Nag/_jki_lib_product_release_nag.llb/JKI Get System Web Browser__jki_lib_product_release_nag.vi"/>
-				<Item Name="JKI Get Web Browser Path__jki_lib_product_release_nag.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/Release Tools/Nag/_jki_lib_product_release_nag.llb/JKI Get Web Browser Path__jki_lib_product_release_nag.vi"/>
-				<Item Name="JKI Open URL In Browser__jki_lib_product_release_nag.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/Release Tools/Nag/_jki_lib_product_release_nag.llb/JKI Open URL In Browser__jki_lib_product_release_nag.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Nag Main VI__jki_lib_product_release_nag.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/Release Tools/Nag/_jki_lib_product_release_nag.llb/Nag Main VI__jki_lib_product_release_nag.vi"/>
-				<Item Name="Build Error Cluster__jki_lib_error_handling.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_error_handling.llb/Build Error Cluster__jki_lib_error_handling.vi"/>
-			</Item>
-			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
