@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2016-05-31 16:40:56" Creator="Jim Kring" Comments="" ID="c01c60429a77ac3a8b5f5702ee74c212">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2016-05-31 16:45:44" Creator="Jim Kring" Comments="" ID="ca93ef12367bf2cba972614d46817ebe">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
     <Library_Version>2.0.1.4</Library_Version>
