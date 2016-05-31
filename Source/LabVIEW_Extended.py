@@ -11,6 +11,7 @@
 
 import socket as _socket
 import sys
+import json
 
 # get python major version as integer
 from sys import version as pythonVersion
@@ -155,6 +156,7 @@ def _scriptFuncClass(functionName,_argumentsList, _documentation):
     """returns a string that can be executed by python to create a child of _Function"""
     _argStr = ""
     _argSize = len(_argumentsList)
+    #print _argSize
     _argCount = 0
     for _argument in _argumentsList:
         _argStr = _argStr + _argument
@@ -179,24 +181,35 @@ class _Instrument:
     def __init__(self, _instrumentName, _functionClusters):
 
         for _functionCluster in _functionClusters:
+            #_execString = "self." + _functionName + " =_Function('" + _instrumentName + "." + _functionName + "'," + "'ArrayofInt','str'" + ")"
             _functionName = _functionCluster[0]
             _functionArgList = _functionCluster[1]
             _functionDoc = _functionCluster[2]
+            #print argList
             _funExecStr = _scriptFuncClass(_functionName,_functionArgList,_functionDoc)
+            #print _funExecStr
             exec(_funExecStr)
             _execString = '''self.''' + _functionName + ''' =_Function''' + _functionName + "('" + _instrumentName + '''.''' + _functionName + '''' ,''' + repr(_functionArgList) + ''')'''
+
+            #print _execString
 	    exec(_execString)
 
 
 class _Function:
     #myArgs = None
     def __init__(self, name, *args):
+		#print args
 		self._name = name
                 self.argsNames = list(args)
                 
 
     def _executeFunction(self, *args):
+        #print 'exec: '
+        #print args
         a = list(args)
+        #print a
+        #print json.dumps(a)
+        #print self.argsNames
         if isConnected:
 
             if (a == None):
@@ -206,6 +219,7 @@ class _Function:
             else:
 
                 return _passCommand(self._name + '(' + repr(a) + ')')
+                #return _passCommand(self._name + '(' + json.dumps(a) + ')')
 
         else: print('Not Connected: Run "%s.connect()" method to connect.'% __name__)
 
