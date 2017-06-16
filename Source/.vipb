@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2016-05-31 16:45:44" Creator="Jim Kring" Comments="" ID="ca93ef12367bf2cba972614d46817ebe">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2017-06-15 21:20:33" Creator="Jim Kring" Comments="" ID="22753ecd87393ad2fb148157eb993eab">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
     <Library_Version>2.0.1.4</Library_Version>
@@ -125,7 +125,7 @@ Cleaned up diagrams
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
-        <Password/>
+        <Password>LabVIEW_Python_Tools2015</Password>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
       <Password_Overrides>
@@ -155,6 +155,9 @@ Cleaned up diagrams
       </Namespace_Overrides>
       <Exclusions>
         <Path>JKI_Python_Bridge_for_LV.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>py_src</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\Build Support\JKI Library Paid License.txt</License_Agreement_Filepath>
@@ -353,7 +356,7 @@ Cleaned up diagrams
         <Path>Server\Register for Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63D8DA515EA4745E5C968755C6761364</GUID>
+      <GUID>E81DC794316CA3131BCA918802412F7E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
