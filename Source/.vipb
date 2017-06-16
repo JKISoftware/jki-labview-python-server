@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2016-05-31 16:45:44" Creator="Jim Kring" Comments="" ID="ca93ef12367bf2cba972614d46817ebe">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-18 15:20:26" Modified_Date="2017-06-15 21:03:18" Creator="Jim Kring" Comments="" ID="f9dc6c098da61dcc90a5727b09bbfcd4">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
-    <Library_Version>2.0.1.4</Library_Version>
+    <Library_Version>2.0.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -55,11 +55,7 @@
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>http://jki.net/products</URL>
-      <Release_Notes>Fixed issues when running on RT targets (Handle Dialog Errors, etc.)
-Remove missing Nag VI
-Cleaned up diagrams
-
-</Release_Notes>
+      <Release_Notes>Trial version with missing packages. </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -125,7 +121,7 @@ Cleaned up diagrams
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
-        <Password/>
+        <Password>LabVIEW_Python_Tools2015</Password>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
       <Password_Overrides>
@@ -353,7 +349,7 @@ Cleaned up diagrams
         <Path>Server\Register for Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63D8DA515EA4745E5C968755C6761364</GUID>
+      <GUID>E9FE923ACBFBD9D54BFC5B00A902B8B9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
