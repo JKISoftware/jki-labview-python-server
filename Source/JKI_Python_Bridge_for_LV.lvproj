@@ -314,6 +314,21 @@
 				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
 				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
 				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
+				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
+				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
+				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
+				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
+				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
+				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
+				<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Default Data from TD__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
+				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
+				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -458,6 +473,18 @@
 				<Item Name="Show File in Explorer__jki_lib_file.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_file.llb/Show File in Explorer__jki_lib_file.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="BuildComplexScanInputString__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/BuildComplexScanInputString__jki_lib_python_data_tools.vi"/>
+				<Item Name="Extract First Quoted String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Extract First Quoted String__jki_lib_python_data_tools.vi"/>
+				<Item Name="Unescape Python String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Unescape Python String__jki_lib_python_data_tools.vi"/>
+				<Item Name="Set Enum String Value__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Set Enum String Value__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="get text between brackets__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/get text between brackets__jki_lib_python_data_tools.vi"/>
+				<Item Name="get text before last open bracket__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/get text before last open bracket__jki_lib_python_data_tools.vi"/>
+				<Item Name="get text after first open bracket__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/get text after first open bracket__jki_lib_python_data_tools.vi"/>
+				<Item Name="Get Array Size from Python String__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Get Array Size from Python String__jki_lib_python_data_tools.vi"/>
+				<Item Name="Split cluster or array pyhton string__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Split cluster or array pyhton string__jki_lib_python_data_tools.vi"/>
+				<Item Name="Split String at Index__jki_lib_string.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_string.llb/Split String at Index__jki_lib_string.vi"/>
+				<Item Name="Array of VData to VCluster__Py2LV__jki_lib_python_data_tools.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_python_data_tools.llb/Array of VData to VCluster__Py2LV__jki_lib_python_data_tools.vi"/>
+				<Item Name="Build Error Cluster__jki_lib_error_handling.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI.lib/_jki_lib_error_handling.llb/Build Error Cluster__jki_lib_error_handling.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
