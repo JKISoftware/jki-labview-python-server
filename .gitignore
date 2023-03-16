@@ -1,0 +1,24 @@
+
+# Build Output & Distribution
+builds/
+py_src/build/
+py_src/dist/
+py_src/cython_build/
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# Cythonization
+*.c
+*.so
+*.egg-info
+
+
+# Local IDE and Environment Settings
+.idea/
+.dragon/
+*.lvlps
+*.aliases
+venv
+.venv

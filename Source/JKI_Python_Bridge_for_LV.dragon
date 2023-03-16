@@ -1,0 +1,3 @@
+[project]
+labview-version = "2020"
+vipc = "JKI_Python_Bridge_for_LV.vipc"
