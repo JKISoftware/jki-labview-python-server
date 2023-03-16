@@ -4,7 +4,8 @@ Easily add a Python API to your LabVIEW application.
 
 [![Image](https://www.vipm.io/package/jki_lib_python_bridge_for_labview/badge.svg?metric=installs)](https://www.vipm.io/package/jki_lib_python_bridge_for_labview/) [![Image](https://www.vipm.io/package/jki_lib_python_bridge_for_labview/badge.svg?metric=stars)](https://www.vipm.io/package/jki_lib_python_bridge_for_labview/)
 [![License](https://img.shields.io/badge/License-BSD%2bPatent-blue.svg)](https://opensource.org/license/bsdpluspatent) 
-[![LabVIEW](https://img.shields.io/badge/LabVIEW-2020-%23E37725.svg?)](https://www.ni.com/en-us/shop/labview/select-edition/labview-community-edition.html) Python 3.6+
+[![LabVIEW](https://img.shields.io/badge/LabVIEW-2020-%23E37725.svg?)](https://www.ni.com/en-us/shop/labview/select-edition/labview-community-edition.html)
+[![versions](https://img.shields.io/pypi/pyversions/jki-python-bridge-for-labview.svg)](https://github.com/JKISoftware/jki-labview-python-server)
 
 ## Getting Started
 
