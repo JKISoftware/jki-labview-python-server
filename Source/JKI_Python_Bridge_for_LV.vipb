@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2013-11-18 15:20:26" Modified_Date="2023-03-16 10:29:32" Creator="Jim Kring" Comments="" ID="3c3f9e1909396832ab8aa27d75603c65">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2013-11-18 15:20:26" Modified_Date="2023-03-16 14:18:22" Creator="Jim Kring" Comments="" ID="a99f90c36d34558bf1b690c2922e3e58">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
-    <Library_Version>5.0.0.19</Library_Version>
+    <Library_Version>5.0.1.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -44,12 +44,12 @@
     <VI_Package_Configuration_File>JKI_Python_Bridge_for_LV.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>A toolkit allowing Python to call into LabVIEW and seamlessly transfer argument and return data.</One_Line_Description_Summary>
-      <Description>A toolkit allowing Python to call into LabVIEW and seamlessly transfer argument and return data.</Description>
+      <Description>A toolkit allowing Python to call into LabVIEW and seamlessly transfer argument and return data.
+visit https://github.com/JKISoftware/jki-labview-python-server for docs and getting started info.</Description>
       <Copyright>Copyright (c) 2004-2023, JKI</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/jki-labview-python-server</URL>
-      <Release_Notes>Updated to LabVIEW 2020.
-Public open source release.</Release_Notes>
+      <Release_Notes>- released python package on pypi.org</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

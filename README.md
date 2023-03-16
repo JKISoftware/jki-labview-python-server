@@ -8,9 +8,17 @@ Easily add a Python API to your LabVIEW application.
 
 ## Getting Started
 
-- [Install Package with VIPM](https://www.vipm.io/package/jki_lib_python_bridge_for_labview/)
+- [Install LabVIEW Package with VIPM](https://www.vipm.io/package/jki_lib_python_bridge_for_labview/) (You'll use this to create your APIs)
 
-- Open the Example and Run it
+- Install the jki-python-bridge-for-labview using `pip`
+
+`python3 pip install jki-python-bridge-for-labview`
+
+Note: be sure to install the same version as the LabVIEW package you installed. For example, if you've installed version 5.0.0 of the LabVIEW package, then you'd install the same version of the python package as follows:
+
+`python3 pip install jki-python-bridge-for-labview==5.0.1`
+
+- Open the LabVIEW Example and Run it
 
 ![image](https://user-images.githubusercontent.com/381432/197280513-60e018e6-c4ba-4255-8c43-70af6407f4ee.png)
 
@@ -38,7 +46,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 - Interact with LabVIEW from Python
 
 ``` python
->> import jki_lib_python_bridge_for_labview as lv
+>> from jki_python_bridge_for_labview import labview as lv
 >> lv.connect()
 >>> lv.isConnected
 1

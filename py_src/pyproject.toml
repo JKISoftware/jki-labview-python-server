@@ -1,7 +1,7 @@
 [project]
 name = "jki-python-bridge-for-labview"
 description = "JKI Python Bridge for LabVIEW. Easily control your LabVIEW applications from python via define custom APIs."
-version = "5.0.0"
+version = "5.0.1"
 authors = [
     { name = "JKI", email = "info@jki.net" },
 ]
