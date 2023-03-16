@@ -1,18 +1,33 @@
-[tool.poetry]
-name = "python-bridge-for-labview"
-version = "0.0.2"
-description = "Create custom APIs for your LabVIEW applications"
-authors = ["JKI"]
-license = "Proprietary"
-#readme = "README.md"
+[project]
+name = "jki-python-bridge-for-labview"
+description = "JKI Python Bridge for LabVIEW. Easily control your LabVIEW applications from python via define custom APIs."
+version = "5.0.0"
+authors = [
+    { name = "JKI", email = "info@jki.net" },
+]
+dependencies = []
+license = "BSD-2-Clause-Patent"
+readme = "../README.md"
+
+[project.optional-dependencies]
+dev = []
 
 [tool.poetry.dependencies]
 python = "^3.8"
 
-#[tool.poetry.dev-dependencies]
-#Cython = "^0.29.27"
-
 [build-system]
-requires = ["poetry-core>=1.0.0", "setuptools>=42", "wheel", "nuitka"]
-build-backend = "nuitka.distutils.Build"
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  ".github",
+  ".gitignore",
+  "docs",
+  "dist",
+  ".venv",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/jki_python_bridge_for_labview"]
 

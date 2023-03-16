@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2013-11-18 15:20:26" Modified_Date="2023-03-15 15:00:59" Creator="Jim Kring" Comments="" ID="ed71effce9b4e0f70d42585854eb7916">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2013-11-18 15:20:26" Modified_Date="2023-03-16 10:29:32" Creator="Jim Kring" Comments="" ID="3c3f9e1909396832ab8aa27d75603c65">
   <Library_General_Settings>
     <Package_File_Name>jki_lib_python_bridge_for_labview</Package_File_Name>
-    <Library_Version>5.0.0.18</Library_Version>
+    <Library_Version>5.0.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -120,7 +120,7 @@ Public open source release.</Release_Notes>
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
-        <Password>35de3215-4660-483c-88f5-d814e9e3309d</Password>
+        <Password/>
         <Locked_Only>false</Locked_Only>
       </Password_Overrides>
       <Password_Overrides>
@@ -428,7 +428,7 @@ Public open source release.</Release_Notes>
         <Path>JKI Python Bridge - VI Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>87C682423EEA9F93FEB22DA92BB0E599</GUID>
+      <GUID>24235AC659357A3A38563ADC0F086B06</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -491,7 +491,7 @@ Public open source release.</Release_Notes>
         <Path>JKI Python Bridge - Example 2 PyObjects 1 Event Structure.vi</Path>
         <VI_Title>2 Python Objects 1 Event Structure</VI_Title>
       </Items_Data>
-      <GUID>44223D2C07CF12287E8934FF80DB09F9</GUID>
+      <GUID>3CBC280DF59425C1D621538CF614C50D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
